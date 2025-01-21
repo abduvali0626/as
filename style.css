@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Viga", serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+header {
+border-bottom: 2px solid black;
+}
+
+
+.header-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    gap: 30px;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-right a:hover {
+    color: #333333;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #333333;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+
+.input-parent {
+    display: flex;
+    margin-top: 60px;
+}
+
+.hero {
+    margin-top: 50px;
+}
+
+.card {
+    width: 500px;
+    height: 500px;
+    box-shadow: 4px 0px 4px black;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.card-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+footer {
+    border-top: 2px solid black;
+}
+
+.footer-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-center {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-center a {
+    text-decoration: none;
+    color: #000;
+}
